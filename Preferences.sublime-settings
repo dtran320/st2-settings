@@ -1,0 +1,22 @@
+// Settings in here override those in "Default/Preferences.sublime-settings", and
+// are overridden in turn by file type specific settings.
+{
+	// Colors and fonts
+    "color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+	"font_face": "Inconsolata-dz",
+    "font_size": 13,
+
+    // Sublime Linter
+	"pep8_ignore": [
+		"E501"
+	],
+	"sublimelinter": true,
+
+
+	"margin": 4,
+	"gutter": true,
+	"tab-size": 4,
+	"translate_tabs_tabs_to_spaces": true,
+    "word_wrap": "auto",
+    "wrap_width": 80
+}
